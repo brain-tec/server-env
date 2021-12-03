@@ -4,12 +4,13 @@
 
 {
     "name": "server configuration environment files",
-    "version": "13.0.3.0.0",
+    "version": "13.0.3.1.0",
     "depends": ["base", "base_sparse_field"],
     "author": "Camptocamp,Odoo Community Association (OCA)",
     "summary": "move some configurations out of the database",
     "website": "http://github.com/OCA/server-env",
     "license": "LGPL-3",
+    "development_status": "Production/Stable",
     "category": "Tools",
     "data": ["security/res_groups.xml", "serv_config.xml"],
     "installable": True,
