@@ -1,7 +1,8 @@
 [project]
 name = "odoo-addons-oca-server-env"
-version = "19.0.20251217.0"
+version = "19.0.20260224.0"
 dependencies = [
+    "odoo-addon-mail_environment==19.0.*",
     "odoo-addon-server_environment==19.0.*",
 ]
 classifiers=[
